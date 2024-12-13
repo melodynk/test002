@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 
+
 int main() {
     // 串口名
 //    LPCSTR portName = "\\\\.\\COM6";
@@ -66,5 +67,7 @@ int main() {
 
     // 关闭串口
     CloseHandle(hSerial);
+	printf("test02\n");
+	printf("test03\n");
     return 0;
 }
