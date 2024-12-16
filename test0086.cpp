@@ -69,5 +69,6 @@ int main() {
     CloseHandle(hSerial);
 	printf("test02\n");
 	printf("test03\n");
+	printf("test04\n");
     return 0;
 }
